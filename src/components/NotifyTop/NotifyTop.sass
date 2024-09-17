@@ -1,0 +1,60 @@
+.notify-top
+    display: none
+
+.notify-top
+    background-color: #19184a
+    padding: 5px 10px
+
+.notify-top .nt-content
+    display: flex
+    align-items: center
+    justify-content: center
+
+    & p
+        display: inline-block
+        margin: 0
+        font-weight: 700
+        color: #fff
+        font-size: 16px
+
+    & a
+        margin: 0 0 0 20px
+        padding: 6px 8px
+
+.notify-top .nt-content span.learn-more
+    display: inline-block
+    white-space: nowrap
+    margin: 0 0 0 20px
+    color: #637cf7
+    font-size: 14px
+    font-weight: 700
+    border: 1px solid #637cf7
+    border-radius: 8px
+    padding: 6px 8px
+    transition: all ease .3s
+
+@media only screen and (max-width: 767px)
+    .notify-top .nt-content p span.mobile-new-line
+        display: none
+
+    .notify-top .nt-content a
+        border: 0px !important
+
+    .notify-top .nt-content a:hover
+        background: none
+
+    .notify-top .nt-content p
+        display: inline-block
+
+@media only screen and (max-width: 991px)
+.notify-top
+    display: none
+
+.notify-top .nt-content
+    display: flex
+    align-items: center
+    justify-content: center
+
+    & p
+        margin: 0
+        font-size: 16px
